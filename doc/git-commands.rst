@@ -20,8 +20,12 @@ Branch and Merging
 ------------------
 1. Create a new branch using either `git branch devel` and then switch using `git checkout devel` or directly create and switch `git checkout -b devel`.
 2. `git log --oneline --decorate --graph --all`  to show the commit histories over all the branches. Similarly you can use, `git show-branch --all`.
+3. Merging *fast-forwards* the HEAD of master to HEAD of the branch.
+4. `git log --graph --abbrev-commit --decorate` gives nice acyclic graph of commits with all the different branches.
+5. The opposite of git commit -a is git add -p.
 
 Python Gyaan
 ============
 
-* Create a *.gitignore* file and add `__pycache__` and `*.pyc`
+* Create a *.gitignore* file and add `__pycache__` and `*.pyc`. Compiled objects might create problem on other systems.
+* 
