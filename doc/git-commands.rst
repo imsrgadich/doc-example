@@ -1,7 +1,11 @@
 
 
-GIT Introduction
-================
+GIT 
+===
+
+Introduction
+------------
+
 
 1. `git init` to initialize the git file.
 2. `git add <file>` to add files to staging area.
@@ -11,8 +15,11 @@ GIT Introduction
 6. `git log --online` to get the oneline log of commits.  Can use the has key in the **git show** command.
 7. `git checkout -- <filename>` to discard file changes. Its like closing a file without saving.
 8. `git commit --amend -m "<message>"` to change the previous.
-9. 
 
+Branch and Merging
+------------------
+1. Create a new branch using either `git branch devel` and then switch using `git checkout devel` or directly create and switch `git checkout -b devel`.
+2. `git log --oneline --decorate --graph --all`  to show the commit histories over all the branches. Similarly you can use, `git show-branch --all`.
 
 Python Gyaan
 ============
