@@ -1,4 +1,4 @@
-## Added the comment here
+
 
 Feature A
 =========
@@ -6,7 +6,7 @@ Feature A
 Subsection
 ----------
 
-Exciting documentation in here.
+Exciting documentation in here. So here are additional details. JK!
 
 
 Another subsection
