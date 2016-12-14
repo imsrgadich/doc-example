@@ -5,7 +5,6 @@ doc-example
 
 .. toctree::
    :maxdepth: 2
-   :caption: List of features
+   :caption: my-learnings at code refinery camp 
 
-   feature-a.rst
-   feature-b.rst
+   git-commands.rst
