@@ -1,6 +1,6 @@
 
 
-GIT 
+GIT
 ===
 
 Introduction
@@ -23,6 +23,12 @@ Branch and Merging
 3. Merging *fast-forwards* the HEAD of master to HEAD of the branch.
 4. `git log --graph --abbrev-commit --decorate` gives nice acyclic graph of commits with all the different branches.
 5. The opposite of git commit -a is git add -p.
+
+**Day2**
+6. `git remote -v` to see the origin.
+7. `git checkout -b dev origin/dev` to switch to dev branch and start tracking the origin dev.
+8. `git push -u origin cool-branch` ??
+9. rebase, up stream,
 
 Python Gyaan
 ============
