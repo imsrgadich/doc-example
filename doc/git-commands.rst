@@ -29,9 +29,13 @@ Branch and Merging
 7. `git checkout -b dev origin/dev` to switch to dev branch and start tracking the origin dev.
 8. `git push -u origin cool-branch` ??
 9. rebase, up stream,
+10. `git diff` Shows the changes between the working directory and the index. This shows what has been changed, but is not staged for a commit.
+11. `git diff --cached` Shows the changes between the index and the HEAD(which is the last commit on this branch). This shows what has been added to the index and staged for a commit.
+12. `git diff HEAD` Shows all the changes between the working directory and HEAD (which includes changes in the index). This shows all the changes since the last commit, whether or not they have been staged for commit or not.
+
 
 Python Gyaan
 ============
 
 * Create a *.gitignore* file and add `__pycache__` and `*.pyc`. Compiled objects might create problem on other systems.
-* 
+* mybinder.org, wakari.io for hosting jupyter notebooks online...
