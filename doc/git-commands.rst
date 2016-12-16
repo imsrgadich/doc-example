@@ -3,6 +3,11 @@
 GIT
 ===
 
+
+**Day 1**
+---------
+
+
 Introduction
 ------------
 
@@ -18,6 +23,8 @@ Introduction
 
 Branch and Merging
 ------------------
+
+
 1. Create a new branch using either `git branch devel` and then switch using `git checkout devel` or directly create and switch `git checkout -b devel`.
 2. `git log --oneline --decorate --graph --all`  to show the commit histories over all the branches. Similarly you can use, `git show-branch --all`.
 3. Merging *fast-forwards* the HEAD of master to HEAD of the branch.
@@ -25,6 +32,9 @@ Branch and Merging
 5. The opposite of git commit -a is git add -p.
 
 **Day2**
+--------
+
+
 6. `git remote -v` to see the origin.
 7. `git checkout -b dev origin/dev` to switch to dev branch and start tracking the origin dev.
 8. `git push -u origin cool-branch` ??
@@ -36,6 +46,7 @@ Branch and Merging
 
 Python Gyaan
 ============
+
 
 * Create a *.gitignore* file and add `__pycache__` and `*.pyc`. Compiled objects might create problem on other systems.
 * mybinder.org, wakari.io for hosting jupyter notebooks online...
